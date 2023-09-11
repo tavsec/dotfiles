@@ -7,5 +7,14 @@ ln -s $DOTFILES/p10k/.p10k.zsh $HOME/.p10k.zsh
 
 rm -rf $HOME/.gitconfig
 ln -s $DOTFILES/git/.gitconfig $HOME/.gitconfig
+
 rm -rf $HOME/.gitignore
 ln -s $DOTFILES/git/.gitignore $HOME/.gitignore
+
+rm -rf $HOME/.tmux.conf
+ln -s $DOTFILES/tmux/tmux.conf $HOME/.tmux.conf
+
+mkdir -p /usr/local/bin
+rm -rf /usr/local/bin/t
+ln -s $DOTFILES/scripts/t /usr/local/bin/t
+
