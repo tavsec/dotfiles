@@ -1,0 +1,8 @@
+[user]
+	name = Timotej Avsec
+	email = avsectimotej1@gmail.com
+[core]
+	autocrlf = input
+	excludesfile = .gitignore
+[init]
+	defaultBranch = main
