@@ -151,16 +151,16 @@ use({
 })
 
 -- A Status line.
-
---   after = 'tokyonight.nvim',
---   requires = {
---     'arkav/lualine-lsp-progress',
---     'kyazdani42/nvim-web-devicons',
---   },
---   config = function()
---     require('user/plugins/lualine')
---   end,
--- })
+use({
+    "nvim-lualine/lualine.nvim",
+    requires = {
+        'arkav/lualine-lsp-progress',
+        'kyazdani42/nvim-web-devicons',
+    },
+    config = function()
+        require('user/plugins/lualine')
+    end,
+})
 
 -- Display buffers as tabs.
 -- use({
