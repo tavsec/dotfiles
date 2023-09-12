@@ -126,28 +126,29 @@ use({
 })
 
 -- Fuzzy finder
--- use({
---   'nvim-telescope/telescope.nvim',
---   after = 'tokyonight.nvim',
---   requires = {
---     'nvim-lua/plenary.nvim',
---     'kyazdani42/nvim-web-devicons',
---     'nvim-telescope/telescope-live-grep-args.nvim',
---     { 'nvim-telescope/telescope-fzf-native.nvim', run = 'make' },
---   },
---   config = function()
---     require('user/plugins/telescope')
---   end,
--- })
+use({
+  'nvim-telescope/telescope.nvim',
+   tag = '0.1.3',
+  -- after = 'tokyonight.nvim',
+  requires = {
+    'nvim-lua/plenary.nvim',
+    'kyazdani42/nvim-web-devicons',
+    'nvim-telescope/telescope-live-grep-args.nvim',
+    { 'nvim-telescope/telescope-fzf-native.nvim', run = 'make' },
+  },
+  config = function()
+    require('user/plugins/telescope')
+  end
+})
 
--- -- File tree sidebar
--- use({
---   'kyazdani42/nvim-tree.lua',
---   requires = 'kyazdani42/nvim-web-devicons',
---   config = function()
---     require('user/plugins/nvim-tree')
---   end,
--- })
+-- File tree sidebar
+use({
+  'kyazdani42/nvim-tree.lua',
+  requires = 'kyazdani42/nvim-web-devicons',
+  config = function()
+    require('user/plugins/nvim-tree')
+  end,
+})
 
 -- A Status line.
 
