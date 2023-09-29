@@ -163,30 +163,30 @@ use({
 })
 
 -- Display buffers as tabs.
--- use({
---   'akinsho/bufferline.nvim',
---   requires = 'kyazdani42/nvim-web-devicons',
---   after = 'tokyonight.nvim',
---   config = function()
---     require('user/plugins/bufferline')
---   end,
--- })
+use({
+  'akinsho/bufferline.nvim',
+  requires = 'kyazdani42/nvim-web-devicons',
+  after = 'onedark.nvim',
+  config = function()
+    require('user/plugins/bufferline')
+  end,
+})
 
 -- Display indentation lines.
--- use({
---   'lukas-reineke/indent-blankline.nvim',
---   config = function()
---     require('user/plugins/indent-blankline')
---   end,
--- })
+use({
+  'lukas-reineke/indent-blankline.nvim',
+  config = function()
+    require('user/plugins/indent-blankline')
+  end,
+})
 
 -- Add a dashboard.
--- use({
---   'glepnir/dashboard-nvim',
---   config = function()
---     require('user/plugins/dashboard-nvim')
---   end
--- })
+use({
+  'glepnir/dashboard-nvim',
+  config = function()
+    require('user/plugins/dashboard-nvim')
+  end
+})
 
 -- Git integration.
 use({
