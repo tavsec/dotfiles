@@ -1,0 +1,14 @@
+
+[window]
+padding = {x=30, y=30}
+decorations = "Full"
+opacity = 0.9
+startup_mode = "Fullscreen"
+
+[font]
+normal = { family = "JetBrainsMono", style = "Regular" }
+size = 12
+
+[terminal]
+shell = "/bin/zellij"
+

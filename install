@@ -8,5 +8,9 @@ ln -s $DOTFILES/git/.gitconfig $HOME/.gitconfig
 rm -rf $HOME/.gitignore
 ln -s $DOTFILES/git/.gitignore $HOME/.gitignore
 
+rm -rf $HOME/.alacritty.toml
+ln -s $DOTFILES/alacritty/.alacritty.toml $HOME/.alacritty.toml
 
+rm -rf $HOME/.config/starship.toml
+ln -s $DOTFILES/starship/starship.toml $HOME/.config/starship.toml
 
